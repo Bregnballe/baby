@@ -6,6 +6,10 @@ main {
   padding: 0 2rem;
 }
 
+body {
+  margin: 0;
+}
+
 /* ##### Search ##### */
 header {
   background: #3498db;
@@ -35,6 +39,7 @@ li {
 /*  margin: 2px;
   border-radius: 3px; */
   font-family: sans-serif;
+  font-weight: 500;
   border-bottom: 1px solid #fff;
 }
 li:hover {

@@ -10,6 +10,7 @@ class NamesList extends Component {
       )
     })
 
+  // for hvery object in the json-file, a li-item is created and added to the unordered list below
   //  console.log(this.props.data[0].name)
 
     return (
