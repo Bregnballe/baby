@@ -30,27 +30,36 @@ ul {
 li {
   position: relative;
   list-style: none;
-  display: inline-block;
-  padding: 0.25rem 0.75rem;
-  margin: 2px;
-  border-radius: 3px;
+  display: block;
+  padding: 0.75rem 0.75rem;
+/*  margin: 2px;
+  border-radius: 3px; */
+  font-family: sans-serif;
+  border-bottom: 1px solid #fff;
 }
 li:hover {
   cursor: pointer;
 }
-li.girl {
+li.female {
   background: #ffc6e5;
   color: #940050;
 }
-li.girl:hover {
+li.female:hover {
   background: #ffadd9;
 }
-li.boy {
+li.male {
   background: #a0cfee;
   color: #16527a;
 }
-li.boy:hover {
+li.male:hover {
   background: #8bc4ea;
+}
+li.unisex {
+  background: #d0d0d0;
+  color: #3c3c3c;
+}
+li.unisex:hover {
+  background: #bababa;
 }
 
 /* ##### Favourites ##### */
